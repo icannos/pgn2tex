@@ -1,0 +1,309 @@
+[Event "Stafford Gambit: Stafford Gambit accepted : Overview"]
+[Site "https://lichess.org/study/c9YhCd5b/Qy1jSIdv"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "14:06:04"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 { ---Introduction---
+Hi everyone. I've created this study both for people who wish to try the stafford gambit as black and for people who want to learn how to response properly to this gambit.
+Be aware though that this opening is objectively unsound, and there are several ways to counter it with white and to get a significant advantage. If you play this opening you are essentially accepting a losing position in which you have to swindle your opponent to win. It's extremely fun but it's not a proper way to play chess.
+If you are a beginner player looking to build an agressive repertoire as black against e4 this is not the way to do it.
+However it is still extremely tricky and it is extremely easy for white to go wrong while playing seemingly solid moves.
+It's a good surprise weapon for Blitz and bullet, especially if your main opening against e4 is the Petroff.
+I've incorporated ideas from Eric Rosen, Jonathan Schrantz, Daniel Naroditsky and others as well as ideas of my own. Currently this line is undergoing a boom in popularity on the internet and new variations and tricks are often found. So I'll try to keep this study updated.
+Don't forget to drop a like if you enjoyed it =) } 1... e5 { The Stafford Gambit is an e4-e5 opening that can occur in the russian game. } 2. Nf3 { [%cal Gf3e5] } 2... Nf6 3. Nxe5 { Here the main response is to drive the knight away and then recapture the pawn } { [%cal Gf6e4] } (3. Bc4 { Bc4 can lead to a reverse Stafford gambit } 3... Nxe4 4. Nc3 Nxc3 5. dxc3 { This is actually slightly better than the normal stafford gambit as white as an extra tempi. }) 3... Nc6!? { Black offers an exchange of knights. This trade is very favorable for white as it will damage Black's struture and give time to defend the e4 pawn. Therefore Back is sacrificing a pawn and in exchange will beneficiate from open diagonals for the bishops and a semi open file for the queen as well as a slight lead in development. However, if White plays accurately he should be able to come up on top of the ensuing struggle with its extra e pawn. } { [%cal Ge5c6] } (3... d6 4. Nf3 Nxe4 { The Petroff is considered as a very solid but also very placid way to response to e5. }) 4. Nxc6 { This move accepts the gambit. White is technically better and Black objective is now to try to trick white into blundering something. } (4. Nc3?! { White can get into a halloween Gambit by ignoring the knight. this is higly dubious. })  (4. Nf3 { White can refuse the gambit with either Knight back to f3 or d5. It's objectively a poor decision since in theory this gambit is dubious for black but it can happen. Then the position will revert to a normal Petroff position. Stafford players would be well advised to know these lines as well. } 4... Nxe4 5. Nc3 Nxc3 6. dxc3)  (4. d4) 4... dxc6 { Taking with d is better. It opens the light square bishop and the semi-open file for the queen. } { [%csl Ge4,Gd1][%cal Gf8c5,Gf6g4,Gd8h4,Gd8d6,Gh7h5] } (4... bxc6 { Inferior capture }) 5. d3 { d3 is the normal response to the Stafford. Black has many different traps and idea depending on how White decides to set his pieces up. It's fairly easy to fall into any of Black's tricks if White isn't well prepared. } (5. e5 Ne4 (5... Nd5 6. d4 Bf5 7. Bc4 Qd7 8. O-O O-O-O) 6. d4 (6. d3? Bc5 { [%cal Gc5f2,Ge4f2] }))  (5. f3!? { Surprisingly f3 is a viable way of fighting the Stafford gambit })  (5. Nc3 Bc5 6. h3 { Very important move. Knight to g4 must be prevented. }) 5... Bc5 { Bc5 is a pivotal move in the Stafford Gambit. Targetting the f2 pawn is key to black strategy. } { [%csl Gf2][%cal Gc5f2] } 6. Be2 { Be2 seems natural, it develops the bishop while guarding the g4 square } { [%cal Ge2g4] } (6. h3 { It's technically playable but it allows for a double sacrifice which leads to a very unpleasant King walk for white. I do not advise you to go into this as white. } 6... Bxf2+ 7. Kxf2 Nxe4+ 8. Kf3)  (6. Bg5 Nxe4 7. Bxd8 (7. dxe4 Bxf2+ 8. Ke2 Bg4+ 9. Kxf2 Qxd1) 7... Bxf2+ 8. Ke2 Bg4# { [%cal Gg4d1,Gf2e1,Ge4d2,Gf2e3,Gg4e2] }) 6... Ng4 { Just an example of how the game could unfold from there. Ng4 is a temporary sacrifice which allows to gain the Bishop pair } (6... h5 { Probably the most common and ambitious move for black. Very tricky lines can arise from this position. } 7. c3 Bb6)  (6... Qd6 7. c3 { c3 d4 is a common idea to refutate the Stafford. I'll explore this a bit further in later chapters. } { [%cal Gd3d4] } 7... Bb6 { [%cal Gf6e4] } 8. Nd2 { We protect the e4 pawn to play d4 and shuts down the bishop. If you get this as black you must castle Queenside and try to play c5 to re-activate your dark-squre bishop } { [%cal Gd2e4] }) 7. Bxg4 Qh4 { Double attack to regain the piece } { [%cal Gh4f2,Gh4g4] } 8. O-O Bxg4 9. Qe1 O-O-O { Objectively white should be better, but with opposing side castles and the bishop pair Black might have practical chances. } 10. Be3 Bd6 { This is the favorite line of the computer but Black can also try to trick White with other ideas. You don't have to go for this as black if you want to keep more pieces on the board. } { [%cal Gf2f4,Gg2g3] } *
+
+
+[Event "Stafford Gambit: Stafford Gambit : The Big trap - 5. d3 Bc5 6. Bg5"]
+[Site "https://lichess.org/study/c9YhCd5b/SPNSwy6V"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "12:57:59"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 { Instead of going for the main line of the Petroff Black gambits the e pawn } 4. Nxc6 dxc6 { Now the e4 pawn is attacked. If white wants to keep its extra-pawn White needs to defend it } 5. d3 { Natural move } 5... Bc5 { The point of the Stafford gambit is to allow for quick development and attack the white king } { [%csl Gf2,Gh2][%cal Gc5f2,Gd8d6,Gd8d4,Gf6g4] } 6. Bg5? { This appealing move is a mistake } (6. Be2 { That's the main move of the refutation })  (6. h3 { Prevent the black knight from going to g4, also playable }) 6... Nxe4! 7. Bxd8?? { Mate is now unavoidable } (7. dxe4 { Now white loses the queen } 7... Bxf2+ 8. Kxf2 (8. Ke2 Bg4+ { This cannot be avoided } 9. Kxf2 Qxd1) 8... Qxd1)  (7. Be3 { White may realise the danger and bring back their bishop } 7... Bxe3 8. fxe3 (8. dxe4 { If they take the knight instead of the bishop we have the same tactical motive as before to win the queen } { [%cal Ge3f2] } 8... Bxf2+ 9. Kxf2 (9. Ke2 Bg4+ 10. Kxf2 Qxd1) 9... Qxd1) 8... Qh4+ { White position is going to cramble but they can try to put up a fight before going down. } 9. g3 Nxg3 10. hxg3 (10. Rg1 { White is trying to create as much chaos as possible to survive but unfortunately Black has a force win whatever White does } 10... Ne4+ { Discovery check } { [%cal Gh4e1] } 11. Rg3 { It's the only way to stop mate } (11. Ke2 Qf2#) 11... Qxh2 { Threatening mate again } { [%cal Gh2f2] } 12. Qf3 Qxg3+ 13. Qxg3 Nxg3 { And black is now winning }) 10... Qxh1)  (7. Qe2 { White creates a pin on the knight to limit damage } { [%cal Ge2e8] } 7... Bxf2+ 8. Kd1 Qxg5 9. Qxe4+ Kd8! { It's important to put the king on d8 instead of f8 to bring the rook into the game } 10. Be2 Re8 11. Qf3 (11. Qc4 Qxg2 12. Rf1 Rxe2 13. Kxe2 Bh4+ 14. Ke3 Bg5+ 15. Rf4 { This forcing line just goes on forever but it's obvious that white is getting crushed }) 11... Rxe2! 12. Kxe2 { White need to take with the king to get both bishops. } (12. Qxe2 Bg4 13. Qxg4 Qxg4+ 14. Kc1) 12... Bg4 13. Kxf2 Bxf3 14. Kxf3) 7... Bxf2+ 8. Ke2 Bg4# { A nice mating pattern. } *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. e5 Ne4 6. d4"]
+[Site "https://lichess.org/study/c9YhCd5b/EnfZjNcl"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "13:21:27"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. e5 { Advancing the attacked pawn to get it out of danger and gain a tempo on the knight. By no mean a bad move but a risky one. This pawn is now over extended and the f6 Knight coming in the middle of the board could easily backfire for white. White needs to play precisely from there. } 5... Ne4 6. d4 { Ignoring the knight for now and consolidating the pawn on e5 is the best approach here } 6... Qh4 { An enduring try to put pressure on White position } { [%cal Gh4f2,Ge4f2] } 7. g3? { g3 loses the rook immediately } (7. Qe2 { This is the best way to defend against the Checkmate. })  (7. Be3 { Another solid move } 7... f6 { Black should technically be losing here but still has a lot of momentum. f6 attempts to undermine White center } (7... Bg4 8. Be2) 8. Bd3 Bg4 9. Qc1) 7... Nxg3 { [%cal Gh4e4] } 8. fxg3 (8. hxg3 Qxh1) 8... Qe4+ { [%cal Ge4h1,Ge4e1] } 9. Qe2 Qxh1 *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. e5 Ne4 6. d3"]
+[Site "https://lichess.org/study/c9YhCd5b/cArJiAA4"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "13:15:57"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. e5 { Pushing the e pawn forward to get it out of danger and kick the f Knight awat } 5... Ne4 6. d3? { As I mentioned in the previous chapter in this line White must play d4. In this chapter I demonstrate why } 6... Bc5! { One issue with d3 instead of d4 is that it allows Black to activate their bishop and target the f2 pawn. } { [%cal Gc5f2,Ge4f2] } 7. dxe4?? { Taking the knight loses the queen } (7. Be3 { Now White realises that they cannot take the knight so they protect the f2 pawn with the bishop. } 7... Bxe3 8. fxe3 Qh4+ { This is similar to another line we saw in a previous chapter. The duo queen + Knight is going to obliterate white position } 9. Ke2 (9. g3 Nxg3 10. hxg3 (10. Rg1 Ne4+ 11. Rg3 Qxh2 12. dxe4 Qxg3+ 13. Kd2) 10... Qxh1 { Black is winning }) 9... Qf2#) 7... Bxf2+ 8. Kxf2 (8. Ke2 Bg4+ { The white king has no square left and is forced to take on f2 } 9. Kxf2 Qxd1) 8... Qxd1 *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. e5 Ne4 6. d3 Bc5 7. Be3"]
+[Site "https://lichess.org/study/c9YhCd5b/0jj34k0m"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "13:32:57"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. e5 Ne4 6. d3 Bc5 { In this chapter I'll show some more sidelines in this Be3 variation } 7. Be3 { This is the only try White has to prevent losing the queen and getting checkmated. } 7... Bxe3 8. fxe3 { Now the diagonal of the white king is weak } 8... Qh4+ 9. g3 { Only move. If white tries to run away it's checkmate } (9. Ke2 Qf2#) 9... Nxg3 { [%cal Gg3h1,Gh4h1] } 10. hxg3 (10. Rg1 Ne4+ 11. Rg3 { Best move isn't to grab the rook but to take on h2 and reiterate the mating threat } { [%cal Gh4h2] } 11... Qxh2 12. dxe4 (12. Rf3 { Trying to keep the rook and defend against checkmate. This leads to a force line that loses the queen } 12... Qh4+ 13. Ke2 Bg4 { [%cal Gh4f2] } 14. Qe1 (14. dxe4 Bxf3+ 15. Kxf3 Qh5+ 16. Kf2 Qxd1)  (14. Qd2 Qf2+ 15. Kd1 Qxf1+ 16. Qe1 Bxf3+ 17. Kc1 Qxe1#) 14... Bxf3+ 15. Kxf3 Qxe1 16. Kxe4) 12... Qxg3+ 13. Kd2 { [%cal Gc8g4,Ge8c8,Ge8g8] }) 10... Qxh1 *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. e5 Ne4 6. Nc3"]
+[Site "https://lichess.org/study/c9YhCd5b/2BhKOuBI"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "13:41:29"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. e5 Ne4 6. Nc3 { Attacking the knight to move it away from the center. This is a good move. } { [%cal Gc3e4] } 6... Qh4 { Black of course doesn't want to take on c3. Qh4 threatens checkmate. } { [%cal Ge4f2,Gh4f2] } 7. g3? { White might goes for the natural g3 thinking that the pawn is sufficiently protected. But here it doesn't work because of the fork on e4 } (7. Qf3 { This is the best response. Black is now in trouble. } 7... Nc5 (7... Nxc3 8. dxc3 Be6))  (7. Nxe4 { This loses the pawn and allows Black to equalize the game easily. } 7... Qxe4+ { Black is going to win one of these pawns whatever white does } { [%cal Ge4c2,Ge4e5,Ge4g2] } 8. Be2 Qxg2 9. Bf3 Qg6 { Black is fine }) 7... Nxc3 8. gxh4 (8. dxc3?? Qe4+ 9. Qe2 Qxh1 { Black is winning here. }) 8... Nxd1 9. Kxd1 Bc5 { White poor pawn struture gives Black enough targets to compensate for the pawn. Black is fine here. } { [%csl Gh4,Gh2,Ge5][%cal Gc5f2] } *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. Nc3 Bc5 6. Be2"]
+[Site "https://lichess.org/study/c9YhCd5b/9Oe7W4Zp"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "13:55:31"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. Nc3 { Defending the pawn while developing the knight. One of the best counter to the Stafford. Still white must play precisely to avoid being swindled. } 5... Bc5 6. Be2?! { Trying to castle while continuing development however this allows Black to find compensations and to drag the game into some tricky lines. This move is good example of why the Stafford is so dangerous. It looks completely fine at first glance but allows Black to potentially take the upper hand. } (6. Bc4? { Bc4 attempts the same thing as Be2 but places the Bishop on a more agressive square. More on this move in the next chapter } 6... Ng4 { White is forced to protect with the rook or else... } { [%cal Gc5f2,Gg4f2] } 7. O-O Qh4! { [%csl Gc4,Ge2][%cal Gh4f2,Gg4f2,Ge2g4] } 8. h3 Nxf2 9. Rxf2 (9. Qf3 Nxh3+! { [%cal Gh3g1,Gc5g1] } 10. Kh1 Nf2+ 11. Kg1 Qh1#) 9... Qxf2+ 10. Kh1 { [%cal Gc8e6,Ge8b8,Gh7h5,Gg7g5] })  (6. h3 { It's a the best move. It stops Knight to g4 ideas for now. This might be the most pratical line to battle the Stafford gambit. But still white has to proceed with caution as Black could attempt Fishing pole traps with h5. Deeper analysis required }) 6... Qd4 { Because of the mate threat White is forced to castle. } { [%cal Gd4f2,Gd4e4] } 7. O-O h5 { [%cal Gf6g4] } (7... Nxe4 { Note that in this line Black can already equalize and regain the pawn after Knight takes e4 }) 8. h3 Ng4 9. hxg4 hxg4 { It's impossible for white to defend against the idea of Queen e5 followed by queen h5. } { [%cal Gc5g1,Gh8h1,Gd4e5,Ge5h5] } 10. g3 (10. Bxg4 Qe5 11. g3 Qxg3#) 10... Qe5 11. Kg2 Bxf2!! { It's a clearance sacrifice which makes it impossible for white to stop the checkmate on the h file if they capture with the rook. } 12. Rxf2 (12. Kxf2 Rh2+ 13. Ke3 (13. Ke1 Qxg3+) 13... Qxg3+ 14. Kd4 (14. Bf3 Be6 15. d4 Bc4 16. Qe1 Qh3 17. Rf2 (17. Ne2 Rxe2+ 18. Qxe2 Bxe2 19. Kxe2 gxf3+ 20. Rxf3 Qg2+ 21. Rf2 Qxe4+) 17... Qh6#) 14... Be6 15. d3 (15. Kc5 Qd6#) 15... c5+ 16. Kxc5 Qd6+ 17. Kb5 a5 18. b4 (18. a3 Qc6#) 18... Qxb4#) 12... Qh5 { Now that the rook cannot go the h-file it's impossible for white to stop the attack } { [%cal Gh5h2] } 13. Qg1 Qh3# *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. Nc3 Bc5 6. Bc4"]
+[Site "https://lichess.org/study/c9YhCd5b/Srisrb4e"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "15:07:37"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. Nc3 Bc5 6. Bc4? { Again a natural looking move which blunders some tactics on the f2 square by allowing Knight g4. A lot of people falls for this one. } 6... Ng4 { White must either castle or play Rf1 to defend the pawn both options lead to an advantage for Black. } { [%cal Gc5f2,Gg4f2] } (6... Bxf2+ { Also possible here is this move. Black regains the pawn and the white king is in the centre. } 7. Kxf2 Qd4+ 8. Ke1 Qxc4) 7. Rf1 { This is white best tries but it leads to a very complicated and messy position. } (7. O-O { If they castle Black immediatly gets a deadly attack. } 7... Qh4 { [%cal Gh4h2,Gg4h2] } 8. h3 Nxf2 { This is were the fun begins. White is going to get crushed but they can throw a few punches to try to destabilize Black. } 9. Rxf2 (9. Qf3 Nxh3+ 10. Kh1 Nf2+ 11. Kg1 Qh1#)  (9. Bxf7+!? { White has this trick. Sacrificing a bishop to pin the Knight thus stopping the attack and creating some threats on Black's king. Therefore Black should not take this free piece and simply sidestep out of th check. } 9... Kf8 (9... Kxf7? 10. d4! { Cutting the connection between the bishop and the Knight } 10... Bb6 11. Rxf2+) 10. Qh5 { This is white best attempt to confuse Black } (10. Qf3 { This is checkmate } 10... Nxh3+ 11. Kh2 Nf2+ 12. Qh3 Bd6+ 13. e5 Bxe5+ 14. Kg1 Nxh3+ 15. gxh3 Qg3+ 16. Kh1 Qh2#) 10... Nxe4+ { Is the way to go } (10... Nxh3+? { This is a mistake because after Kh2 Black has no good discovery. There is no double check and both the Queen and the Knight are attacked. Therefore Black is losing. } 11. Kh2 { [%cal Gh5h4,Gg2h3] } 11... Bd6+ 12. e5 Bxe5+ 13. Qxe5 Ng5+ 14. Kg1 Nxf7 { Material is equal but the black king is extremely weak. }) 11. d4 (11. Kh2?! Qg3+ 12. Kh1 Bd6 13. Bg8+ Ke7 14. Qf7+ Kd8 { There is no check left } 15. Qf8+ Bxf8) 11... Bxd4+ 12. Kh2 Qg3+ 13. Kh1 Nf2+ 14. Rxf2 (14. Kg1 Ng4+ 15. Rf2 Qxf2+ 16. Kh1 Qg1#) 14... Qxf2) 9... Qxf2+ 10. Kh1 Be6 { [%cal Gh7h5,Ge8c8] })  (7. Qf3 { Trying to counter-attack the f7 paw. Unfortunately this runs into Black's next move } { [%cal Gf3f7,Gc4f7] } 7... Ne5 { Simultaneously defending f7 and forking queen and Bishop } { [%cal Ge5c4,Ge5f3,Ge5f7] } 8. Qe2 (8. Qh5 { [%cal Gh5c5] } 8... Qd4 9. Be2 Qxf2+ 10. Kd1) 8... Qh4 9. g3 Qh3 10. Qf1 Nxc4 11. Qxc4 Qg2 { The wolf is in the sheepfold } 12. Rf1 { Black has a winning advantage but more analysis is required here to understand how to properly convert this } 12... Bh3 13. f4 h5 14. Qe2 h4 15. Qxg2 Bxg2 16. g4 Bxf1 17. Kxf1) 7... Qf6 { Putting even more pressure on f2 } 8. Qe2 (8. h3 Bxf2+ 9. Ke2 { The white king has now lost his castling right and is stuck in the center of the board. Besides Black has recovered his pawn. } 9... b5 10. Bb3 b4 11. Na4 Qf4 12. hxg4 { Taking the Knight leads to checkmate as it allows the light-square bishop to jump into action. } (12. d3 Qg3 13. hxg4 { Again taking the Knight leads to a forced-checkmate sequence. } (13. Bxf7+ Ke7 (13... Kxf7 14. Qe1) 14. Qd2 { The p }) 13... Bxg4+ 14. Kd2 Qe3#) 12... Bxg4+ 13. Kd3 Rd8+ 14. Bd5 Rxd5+ 15. exd5 (15. Kc4 Be6 16. Kb3 Rd3+ 17. Kxb4 Qxe4+ 18. Ka5 Qd5+ 19. Nc5 Qxc5+ 20. Ka4 Qb5#) 15... Qd4#)  (8. f3 Nxh2 9. Rh1?? Qh4+ 10. Ke2 Qf2+ 11. Kd3) 8... Nxh2 9. Qh5 Bd6 *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. Nc3 Bc5 6. f3 O-O 7. Ne2"]
+[Site "https://lichess.org/study/c9YhCd5b/je7rzjq5"]
+[Result "*"]
+[UTCDate "2021.01.20"]
+[UTCTime "14:21:28"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. Nc3 Bc5 6. f3 { Surprisingly f3 is actually a viable option for white if white know what they are doing. However it will lead to an uncomfortable position with chances of swindling the game for black.
+I don't recommend this for white although it could be a descent surprise weapon against an oponnent used to playing the Stafford. } 6... O-O (6... Nh5 { credit to @jdcgreat for bringing this line to my attention. With Nh5 Black exploits the fact that the f3 pawn blocks the view of the queen. Of course the idea is to set up Qh4+ tactics } { [%cal Gd8h4] } 7. d3? Qh4+ 8. Kd2 { White now finds himself in quite an uncomfortable position } 8... Be6 { [%cal Ge8c7] } (8... Ng3 { doesn't work due to... } 9. Qe1 { ... pining the knight to the queen and preventing black from winning the rook } 9... Nxf1+ $13)) 7. d3 { This setup is awkward to play for white but should be good. } (7. Ne2? { A prime example of what not to do as white in the Stafford } 7... Nxe4 8. fxe4 Qh4+ 9. Ng3 $44) *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. Nc3 Bc5 6. h3"]
+[Site "https://lichess.org/study/c9YhCd5b/okf6nMoA"]
+[Result "*"]
+[UTCDate "2021.01.27"]
+[UTCTime "18:29:03"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. Nc3 Bc5 6. h3 { h3 is a good move for white. This is one of the set-up which in theory refute the Stafford. Black's usual plans will not work against this because white has control over g4 and will try to castle long after d3 and Be3 to protect his king. } 6... b5!? (6... Qd4 { Credit goes to zorankchess for this idea. } { [%cal Gd4f2] } 7. Qf3 { Defending the mate } { [%cal Gc5b4] } 7... Bb4 { Trying to get a pawn back by removing the c3 knight. White has two good options. Give up the pawn with a3 or keep the pawn Bd3 } 8. Bd3 { But Bd3 guards everything } (8. a3 Bxc3 9. dxc3 Qxe4+ { It looks like black has gotten his pawn back but we are still in trouble because of the bishop pair and bad structural weaknesses. } 10. Qxe4+ Nxe4 11. Bf4 { c7 is weak and eventually Black won't be able to defend it } { [%cal Gf4c7] } 11... Nd6 12. c4 { [%cal Gc4c5] } 12... Bf5 (12... c5 { Blocking the pawn doesn't work because of O-O-O. We cannot avoid c5 } 13. O-O-O { [%cal Gd1d6,Gf4d6] } 13... Be6 14. Bxd6 cxd6 15. Rxd6) 13. c5 Ne4! { After Ne4 we at least get our pawn back and material is equal. This endgame is definitely better for white though. } { [%cal Ge4c5] } 14. Bxc7 { They have to take immediately otherwise we castle long and defend the c7 pawn. } (14. b4 O-O-O)  (14. Bd3 O-O-O) 14... Nxc5 15. O-O-O (15. Bd6 Ne4 16. Bc7 O-O) 15... Ne6 (15... O-O? 16. Bd6 { Forked } { [%cal Gd6f8,Gd6c5] }) 16. Be5 O-O 17. Bc4 Rfd8)  (8. d3?? Bxc3+ 9. Kd1)  (8. Ne2? Qxe4) 8... Nd7 { We are trying to manoeuvre our knight to e5 to hit the Bishop which isn't very well placed } { [%cal Gd7e5] } 9. O-O { This is the most practicle line for white IMO } (9. Ne2 { The engine's top choice. But from a practical and human perspective it's just a horrible move. } 9... Qd6 10. Qg3 { Trying to force a queen trade } { [%cal Gg3g7,Gg3d6] } 10... Ne5 { It's better to decline and give a second pawn } 11. Qxg7 { You can try to complicate the game like this. White's pieces really lack coordination. The Dark-square Bishop is stuck behind the pawns, the queen is } (11. f4 Nxd3+ 12. Qxd3 Qxd3 13. cxd3 { Black has compensation for the pawn. White's structure is terrible. }) 11... Rf8 12. Nf4 { preventing Be6 } { [%cal Gf4e6] } (12. Qxh7? Be6 { [%cal Ge8c8,Ga8g8,Gf8h8] } (12... Nxd3+) 13. O-O? O-O-O { If white allows this Black gets a winning mating attack thanks to all of the open files and diagonales in front of the white king }) 12... Bd7 13. Qg5 { White has to stop black from castling queen side and from launching a big attack. } { [%cal Gg5d8] } (13. O-O? { Castling is too dangerous or white here but you })  (13. Qg3 O-O-O)) 9... Ne5 10. Qe3 Qxe3 (10... Qd6 11. Be2 { [%cal Gd2d4] } 11... Bc5 12. Qg3) 11. dxe3 Bd7 (11... Bxc3 12. bxc3) 12. Ne2)  (6... h5 { Here is an example of how the game could unfold if Black attempts to proceed as usual with h5 and his fishing pole idea. } 7. d3 Qd6 { Black sets up his fishing pole trap anticipating Black castling king-side. } { [%cal Gd6h2] } 8. Qf3 Be6 9. Bf4 Qd7 10. O-O-O O-O-O { All of black efforts to set up a mating attack on the king side are now rendered useless. The game can of course continue from there but obviously Black hasn't been able to justify the pawn sacrifice. }) 7. d3 (7. Qf3 { I haven't look too deep into this variation yet but Qf3 seems like a reasonable idea to avoid Black's trap. } 7... b4 8. Ne2 Be6 9. d3 Qd6 10. Bd2)  (7. a3 { a3 is probably the simpler way to deal with b5. White stops b4. } 7... O-O (7... a5 8. d3 Be6 (8... b4 9. axb4 axb4?? { It's impossible for black to play b4 now because of the pin. } { [%cal Ga1a8] })) 8. d3 { In this position, unfortunately black doesn't seem to have a lot of ressources to try to swindle the game. } 8... a5) 7... b4 8. Ne2? (8. Nb1 Nxe4 9. dxe4 Bxf2+ 10. Ke2 Ba6+ { Once b4 is played there is no way to avoid these tactics })  (8. Na4 Bxf2+ 9. Kxf2 Nxe4+ { Of course white cannot capture the knight as the pawn is pinned to the queen. } 10. Kg1 { Most people here try to hide the King on g1 but this allows Black to force a repetition and the game is a draw. } (10. Ke3 Ng3 11. Kf2) 10... Qd4+ 11. Kh2 Qd6+ { And b }) 8... Nxe4! { That's the all point of advancing the b pawn and chasing the Knight. Here Knight e2, the most natural move runs into a nasty tactic. } 9. dxe4 { Taking the Knight will now lose the queen } (9. d4 { Only move but it's already to late black has at the very least equalize. }) 9... Bxf2+ *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. Nc3 Bc5 6. e5??"]
+[Site "https://lichess.org/study/c9YhCd5b/6NKniPTN"]
+[Result "*"]
+[UTCDate "2021.02.25"]
+[UTCTime "21:18:25"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. Nc3 Bc5 6. e5?? { Kudos to tanoCurec for suggesting this variation. In this position e5 is obviously a blunder. It offers Black the extra tempi needed to launch a devastating attack. } 6... Ng4 { [%cal Gg4f2,Gc5f2,Gg4e5] } 7. Ne4 Nxf2 8. Nxf2 Bxf2+ 9. Kxf2 Qd4+ 10. Ke1 Qh4+ 11. g3 Qe4+ 12. Qe2 Qxh1 *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. d3 Bc5 6. h3?!"]
+[Site "https://lichess.org/study/c9YhCd5b/TZRpChxC"]
+[Result "*"]
+[UTCDate "2021.01.31"]
+[UTCTime "11:25:12"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. h3?! { In this chapter we will be looking at the move 6. h3. This move is in my opinion inaccurate as it allows Black to chase the white king in the middle of the board with a nice double sacrifice. } 6... Bxf2+! { We sacrifice the Bishop on f3 } 7. Kxf2 Nxe4+ { [%cal Gf2g1] } 8. Kf3 { Of course you cannot capture the knight here. At this point we have one pawn for the piece. Our main compensation resides in the weakness of the white king. } (8. dxe4?? Qxd1)  (8. Ke3 O-O 9. Kxe4 { We get a transposition } (9. Qf3 Ng5 10. Qg3 (10. Qf4! { Apparently White can keep the advantage with this move because it stops Queen to d5 check. } 10... Re8+ 11. Kf2 Ne6 12. Qd2 { Black is busted here }) 10... Re8+ 11. Kf2 Qd4+ 12. Be3 Qxb2 13. Qxg5 Qxa1))  (8. Kg1 { Leads to draw by peerpetual checks. } 8... Qd4+ 9. Kh2 { [%cal Gd4e5] } 9... Qe5+ 10. Kg1 (10. g3?? Qxg3#)) 8... O-O 9. Nc3? { In this position most people will be too afraid to even take the knight } (9. Kxe4 { If they take our knight this results in a draw } 9... Qh4+ { If you end up in this position all you have to remember is to bring both your rooks into the game on the open files, paly f5 to open up the position and to keep creating threats on the white king. The chances that white messes this up are pretty high. } { [%cal Ge4f3,Ge4e3,Ge4e5] } 10. Kf3 (10. Ke3 Re8+ { [%cal Ge3f3,Gc8g4] } 11. Kd2 Bg4 12. hxg4 { The queen is trap, white has to take the bishop } (12. Qxg4 { Taking the Bishop also blunders mate } 12... Qe1#) 12... Qg5+ 13. Kc3 Qc5+ 14. Kb3 Qb6+ 15. Ka3 Qa6+ 16. Kb3 Qb6+ 17. Ka3 { And we get a draw by repetition }) 10... Qh5+ { [%cal Gh5f3,Gf3d1] } 11. g4 { g4 is forced } 11... Bxg4+! 12. hxg4 Qxh1+ 13. Kf2 f5 { Trying to open the kind } { [%cal Gf8f2] } 14. g5 Rae8 15. Qf3 Qh2+ 16. Qg2 Qh4+ 17. Kg1 (17. Qg3 Qd4+ 18. Kg2) 17... Re1 { This crazy line probably goes on for a long time. If black manages to keep the initiative going they should be able to eventually find a repetition and make a draw. })  (9. Be2)  (9. Bf4 { This is how the computer defends the position for white. Unlikely to happen in a real game. } 9... Qd4 { Now White is actually threatenning to take the knight so we save it with Queen to d5 } { [%cal Gd4d1] } 10. Qe1 Qxb2 11. Nd2 Nxd2+ 12. Bxd2 Qxc2 13. Qc1 Qxc1 14. Rxc1 { The position is better for white but black does have three pawns for the piece }) 9... Qf6+ { [%csl Ge2,Ge3,Ge4] } 10. Bf4 { This is the only move, everything else leads to checkmate } (10. Kxe4?? Re8#)  (10. Ke3?? Qf2+ 11. Kxe4 Re8#)  (10. Ke2?? Qf2#) 10... Nxc3 11. bxc3 g5 12. Qd2 gxf4 { Material is roughly equal but the white king is just awkward on f3. This should be fine for black } *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. d3 Bc5 6. Nc3"]
+[Site "https://lichess.org/study/c9YhCd5b/LjVC2w25"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "13:48:14"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. Nc3? Ng4 { There is no way to defend the f pawn } 7. Be3 Nxe3 8. fxe3 Bxe3 (8... Qh4+ 9. g3 Qg5 10. Qf3 Bg4 11. Qf4 Qxf4 12. gxf4 (12. exf4 Bf3 13. Bh3 Bxh1) 12... Bxe3) 9. Qf3 Bg5 *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. d3 Bc5 6. Be3"]
+[Site "https://lichess.org/study/c9YhCd5b/M0dYOkfA"]
+[Result "*"]
+[UTCDate "2021.02.19"]
+[UTCTime "18:57:12"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. Be3?! Bxe3 7. fxe3 Ng4 8. Qf3 Qg5 9. Kd2? (9. Qf4!) 9... Nxh2! 10. Qf4 (10. Rxh2?? Qe5 { [%cal Ge5h2,Ge5b2] } 11. Rh5 Qxb2) 10... Nxf1+ 11. Rxf1 *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. d3 Bc5 6. Be2 h3 7. Be3"]
+[Site "https://lichess.org/study/c9YhCd5b/yXnT0Rjy"]
+[Result "*"]
+[UTCDate "2021.02.26"]
+[UTCTime "12:39:23"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. Be2 h5 7. h3 Qd4 { [%cal Gd4f2,Gd4b2] } 8. Be3? (8. O-O Qd6) 8... Qxb2 9. Nd2 Bxe3 10. fxe3 Qe5 11. Nf3 (11. O-O Bxh3 12. gxh3 Qg3+ 13. Kh1 Qxh3+ 14. Kg1 Qg3+ (14... Rh6) 15. Kh1 Ng4 { [%cal Gg3h2] } 16. Nf3 Rh6 17. Qe1 Qh3+ 18. Kg1 Rg6 19. Qh4 Ne5+ 20. Kf2 Rg2+ 21. Ke1 Nxf3+) 11... Qg3+ 12. Kf1 h4 { This is pleasant for Black } { [%cal Gf6h5,Gh5g3] } *
+
+
+[Event "Stafford Gambit: Stafford Gambit : Hafu Variation (Refutation) 5. d3 Bc5 6. Be2 h5 7. c3 Bb6"]
+[Site "https://lichess.org/study/c9YhCd5b/sH5bl8Ev"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "19:21:23"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 { In this chapter we will be looking at the Stafford from white perspective. } 1... e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. Be2 { This setup is supposed to be the strongest refutation of the Stafford Gambit } 6... h5 7. c3 { The idea is to shut down this pesky dark square bishop with d4 } { [%csl Gh3][%cal Gd3d4,Gh5h3] } (7. O-O?! Ng4! 8. Bxg4 (8. h3 Qd6 9. hxg4? hxg4 10. g3 Qxg3#) 8... hxg4)  (7. h3 Qd6 (7... Nh7 8. c3 Qf6 9. d4) 8. c3 Bb6 9. Nd2 Ng8 10. a4) 7... Bb6 { Prevents d4. If d4 now then black can take on e4 } 8. Nd2 { Protects the e4 pawn. } { [%cal Gd2e4] } 8... Ng4 { [%cal Gg4f2,Gb6f2] } 9. d4 c5 { c5 is a logical break for black in this position. The idea is to undouble the pawns and re-open the diagonal for the bishop. } (9... Qh4 10. g3 Qf6 (10... Qh3 11. Bf1)  (10... Qe7 11. a4 a5 12. Nc4 Nf6 (12... Qxe4?? 13. f3 Qd5 14. Nxb6 cxb6 15. c4 Qd6 16. fxg4)) 11. Nf3 h4 12. gxh4 Rxh4? (12... Qe7 13. h3 Nf6 14. e5) 13. Bg5) 10. Nc4 cxd4 11. Nxb6 axb6 12. cxd4 Qh4 13. g3 Qf6 14. O-O { This position should be much better for white but objectively black still has a bit of pressure. } *
+
+
+[Event "Stafford Gambit: Stafford Gambit : Hafu Variation (Refutation) : 5. d3 Bc5 6. Be2 h5 7. c3 Bg4"]
+[Site "https://lichess.org/study/c9YhCd5b/h63eTeU0"]
+[Result "*"]
+[UTCDate "2021.01.30"]
+[UTCTime "19:43:38"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. Be2 h5 7. c3 Bg4 { This sets up a little trap } 8. f3 (8. Bxg4 { Playable but we prefer not to open the h file } 8... hxg4)  (8. d4 Nxe4?! (8... Bxe2 { This is supposed to be the best move here } 9. Qxe2 Be7 10. O-O) 9. Bxg4 (9. dxc5? Qxd1+ 10. Bxd1 Bxd1 11. f3 (11. Kxd1?? Nxf2+) 11... Bxf3 12. gxf3 Nxc5 13. O-O) 9... hxg4 10. Qe2 Qe7 11. dxc5) 8... Be6 9. d4 { Black is getting pushed back } 9... Be7 10. c4 { The idea here is that Black cannot put their queen on d7 to long castle. Black is just getting squeezed } { [%cal Gd4d5] } 10... h4 { Black tries to push the h pawn to weaken White's kingside. } (10... O-O 11. O-O)  (10... Qd7? 11. d5) 11. O-O O-O (11... h3 12. g3) 12. Nc3 Re8 13. Be3 h3 14. g3 Bb4 15. Qc2 c5 16. d5 Bd7 17. a3 Bxc3 18. Qxc3 b6 19. Rae1 *
+
+
+[Event "Stafford Gambit: Stafford Gambit : Magic line (can it be defeated ?) 5. d3 Bc5 6 Be2 h5 7. c3 Ng4"]
+[Site "https://lichess.org/study/c9YhCd5b/MGS9PXoJ"]
+[Result "*"]
+[UTCDate "2021.01.20"]
+[UTCTime "10:37:23"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. Be2 { This variation is called the hafu variation and is supposed to be the best way to fight against the stafford. I covered it in another chapter but since then new ideas for black have appeared. } 6... h5 7. c3 (7. h3 { Maybe not the best move but at least it prevents Black from going Knight to g4 } 7... Qd4 8. O-O (8. Rf1 { Here we can play Rook to f1 with the idea of castling queen-side }) 8... Ng4 9. hxg4 hxg4 10. g3 Rh3 11. Kg2 Qe5 12. Rh1 (12. Bf4))  (7. Nc3 Ng4 8. Bxg4 hxg4 9. Bf4 Be6 10. Qd2 Rh5 11. O-O-O Qe7 12. d4 O-O-O) 7... Ng4 { This line was used by Jonathan Schrantz to defeat the stockfish engine of Lichess. Since then this has become a popular line. This is my attempt at refutating it. Instead of retreating the bishop we keep going forward by putting the Knight on g4.
+This is a High risk high reward kind of situation where black has to keep creating threats and advancing regardless of how much pieces he loses. If white manages to stop Black initiative they should win on the spot. But in a blitz game this could be extremely dangerous. } 8. d4 Qh4!? { This leads to a double sacrifice. It's very dangerous for white. Lesser version of Stockfish have a hard time evaluating this position but in theory it should still be good for white if white can survive the next 10-15 moves } { [%cal Gh4f2,Gg4f2] } (8... Bb6 { If they go back with the bishop White shouldn't have any trouble. } 9. h3 Nf6 10. a4 { White lunges forward with a4 to try to punish the poor placement of this bishop } 10... a5 11. Bg5 { We threatens to win the pinned knight } 11... Qd7 (11... Be6 12. e5) 12. Nd2 { Bringing our last minor piece into the game } 12... Nh7 { [%cal Gh7g5] } (12... Bxd4 { A desperate move. This bishop is dead on b6 so they sacrifice it to try to open lines. White has to be careful about fishing pole traps. } 13. cxd4 Qxd4 { [%cal Gd4b2] } 14. Qc2 { Defending the pawn we will then bring back the bishop on e3 } 14... Be6 15. Be3 Qd6 { [%cal Gd6h2] } (15... Qd7 16. O-O O-O (16... Ng4?! 17. hxg4 hxg4 18. g3 { g3 makes room for the king and stops the white queen from coming to g3. } { [%cal Gg3h4,Ge3h6] } 18... O-O-O 19. Kg2 Rh3 20. Rh1 { White controls the h file. Now more threats here. })) 16. f4! { Threatens e5 forking two piece and taking some space in the center } { [%cal Ge4e5,Gd6h2] } 16... Qd7 17. f5) 13. Be3 Qe7 { [%cal Gc8g4] } (13... g5) 14. O-O { This position } 14... Bd7 15. Re1 g5 16. Bxh5 O-O-O 17. Bg4 { White will have to defend this position })  (8... Bd6 { Here we just push back the opponnent. } 9. e5 Be7 10. h3 Nh6 11. Nd2 { Bringing our Knight into the game. This knight might go to e4 latter on. } 11... Be6 12. O-O Qd7 (12... Nf5 13. Ne4 Nh4 14. Re1 Qd5 15. Bf1 { [%cal Gf1g2,Ge1e4] }) 13. Ne4 O-O-O 14. Bxh5)  (8... Qf6 9. Bxg4 Bxg4 10. f3 Bd6 (10... O-O-O 11. fxg4 Rhe8 12. Nd2 Qf4 13. Qf3) 11. fxg4 Qh4+ { In this line white gets a piece but the king is forced to run. We should be able to find a safe spot on c2 } { [%cal Ge1d2,Gd2c2] } 12. Kd2 { [%cal Gd2c2] } 12... O-O-O 13. Kc2 hxg4 14. Na3 { We develop this way to avoid locking our dark square bishop. } 14... Bxa3 (14... c5 15. Nc4 Rhe8 16. Nxd6+ Rxd6 17. Bf4 Rd7 18. Bg3) 15. bxa3 c5 16. g3 Qh3 17. Qe2 cxd4 18. cxd4 Rxd4 19. Bb2 Rd6 20. Rac1 Re8 21. Kb1 { We should be fine here }) 9. g3 { Of course here black threatens to take on f2, we stop it with g3 } 9... Qf6 { Renewing the threat } { [%cal Gf6f2,Gg4f2] } 10. f3 { It appears white is going to win material. But black can play an incredible move here } 10... h4!! { A brilliant sacrifice even though it shouldn't work with perfect play it's incredibly dangerous. Here white cannot take either the knight or the bishop without giving black massive counterplay. } 11. fxg4 { It is possible to capture the knight but a complicated tactical mess will ensue with practical chances for black even though the evaluation is heavily in white favor. Beside that's the line in which Jonathan Schrantz drew Stockfish. } (11. Bf4 { At first thought that 11. Bf4 would win a piece while stopping Black's counterplay but g5 is a problem } 11... g5 (11... hxg3 12. Bxg3 Bd6 (12... Ne3 13. Qd2 Ng2+ (13... Nf5 14. exf5 Bd6 15. Qe3+ Kf8 16. Rf1 Bxf5 17. Nd2 Re8 18. Ne4 Qe6 19. Kd2 (19. O-O-O Qxa2 20. Bxd6+ cxd6)) 14. Kf2 Bh3 15. dxc5 Rd8 16. Qc1 g5) 13. e5 (13. fxg4 Bxg3+?) 13... Nxe5 14. dxe5 Bxe5 15. Bxe5 Qxe5 16. Qd4 Qxd4 17. cxd4) 12. fxg4 (12. Bxc7 Be6 (12... Bb6 13. Bxb6 hxg3 14. Bc7 Nf2) 13. dxc5 hxg3 14. fxg4 (14. Bxg3)) 12... gxf4 13. gxf4 Bb6 { This is supposed to be winning for white thanks to the two extra pawns and the space advantage. } (13... Be7))  (11. dxc5? { Taking the bishop is wrong } 11... hxg3 { After this White is almost completely paralysed despite being up a piece. } 12. Qd4 { Attempting to trade queen to temper the attack and also give the kind some space } (12. h3?! Nf2 13. Qd4 Nxh1)  (12. Nd2? g2 13. Rg1?? (13. Nb3 gxh1=Q+) 13... Qh4#)  (12. Na3 Nf2 13. Qd4 Qxd4 14. cxd4 Nxh1 { White is busted })  (12. Bd2 g2! { The mating threat is too strong } { [%cal Gf6h4] })  (12. Qb3 Rxh2 13. Rg1 Qh4 14. Bf4 (14. c4)  (14. Qc2 g2+ 15. Kd2 Qg5+ 16. Kd1 Qxc5 { [%cal Gc5g1] } 17. Rxg2 Rh1+) 14... Rxe2+) 12... Qh4 { Of course Black must decline the trade } 13. Kd2 { Getting out of the discovery } 13... Nf2 14. Rf1 gxh2 15. Kc2 (15. Rxf2?) 15... h1=Q 16. Rxh1 Qxh1 { Black is up an exchange, has a lot of activity while White position has completely crambled. } 17. Bg5 (17. Qxf2? { You can't take the knight black while be able to re-capture the e2 bishop thks to the pin. In fact this is worse than not taking the knight because it will accelerate Black play. } 17... Rh2 18. Qe3 Qe1 19. Kd3 Be6 20. b3 O-O-O+) 17... f6 18. Be3 (18. Bf4 Nh3 (18... Qe1)) 18... Nh3) 11... hxg3 { Making use of the pin and threatening Qf2 } { [%cal Gh8h1] } 12. Be3 { [%cal Ge3f2] } 12... Rxh2 (12... g2 13. Rg1 Rxh2 14. g5)  (12... gxh2 13. dxc5 Qe5 14. Nd2) 13. Rxh2 (13. Rg1 { For some reason computer prefers not to take. I think it's too risky to let black's rook live and that white should take on h2 since we can stop the pawn without too much difficulties. } 13... Qh4 (13... Qf2+ 14. Bxf2 gxf2+ 15. Kd2)  (13... Be7 14. Rxg3) 14. Nd2 (14. dxc5 Rh1 15. Kd2 g2 16. Kc2)) 13... gxh2 14. Kd2 { Kd2 is forced } { [%cal Gd1h1] } (14. dxc5 h1=Q+)  (14. Bf3?? Bxg4 { [%cal Gf6f3,Gg4f3,Gh2h1] }) 14... Qh4 15. Na3 { Second forced move, after that White should get out of the complications unscathed. } { [%cal Ga1h1] } (15. Bf3 Bxg4 16. Na3 Bxf3 17. Qxf3 Bd6 (17... Bxa3 18. bxa3 O-O-O 19. Rh1 Re8 20. Kd3)) 15... Bd6 16. Nc4 (16. e5 Bxe5 17. dxe5 Be6 18. Kc2 Rd8 19. Bd4 (19. Bd3) 19... c5 20. Nb5 cxd4 21. Nxc7+ Ke7 22. Nxe6 fxe6) 16... Bg3 17. Bf3 Be6 18. Na5 O-O-O 19. Qe2 { If need be White can put their queen or their rook on h1 to stop the pawn. This is probably still a little awkward but White should be winning here. } *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5. d3 Bc5 6. Be2 Ng4"]
+[Site "https://lichess.org/study/c9YhCd5b/51lmympm"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "20:07:36"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. Be2 Ng4 7. Bxg4 Qh4 8. Qf3 (8. O-O Bxg4 9. Qe1) 8... Bxg4 9. Qg3 Qxg3 (9... Qh5) 10. hxg3 { Black is still down a pawn but they have the bishop pair and better development while white has double g pawns. I believe this position offers pratical chances for the black side. } *
+
+
+[Event "Stafford Gambit: Stafford Gambit : 5 Qf3"]
+[Site "https://lichess.org/study/c9YhCd5b/o2zmpP4R"]
+[Result "*"]
+[UTCDate "2021.03.14"]
+[UTCTime "10:43:10"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. Qf3 { This is actually a pretty interesting way to face the Stafford. The idea is to place the queen on e3 and to hold everything and maybe castle long in the future. But the queen can also be a target in this variation. } { [%cal Gf3e4] } 5... Bg4 6. Qe3 b6 { [%cal Gf8c5] } 7. d4 (7. c3 Bd6 8. e5 O-O { [%cal Ge5f6,Ge5d6] } 9. exd6 (9. exf6 Re8)  (9. f3 Bh5 10. d4 Nd5) 9... Re8 { [%cal Ge8e1] } (9... Nd5)) 7... c5 8. c3 *
+
+
+[Event "Stafford Gambit: Stafford Declined : Three Knights 3. Nc3 Nc6"]
+[Site "https://lichess.org/study/c9YhCd5b/PmudIhKE"]
+[Result "*"]
+[UTCDate "2021.02.26"]
+[UTCTime "11:28:31"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Three Knights Game"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 { One of the drawback of the stafford is that white has to take the e5 pawn to enter it. } 3. Nc3 { Here with white there are many people will prefer not to take the pawn, either to avoid the stafford or because they aren't familiar with the Petroff and would rather try to transpose to an italian or a spanish. } 3... Bc5 { We can try to transpose to a Stafford by playing Bc5 } (3... Nc6 { The theoritically approved move here is to transpose to a four knight. This is a different opening which deserves a study of its own. However it can be tricky for white } 4. Bc4?! { This move for example is dubious } (4. d4 { The problem is that this can also end up being a scotch which is probably not what Stafford players are aiming for. }) 4... Nxe4! 5. Nxe4 d5 6. Bd3 dxe4 (6... f5 7. Nc3 e4) 7. Bxe4 Bd6)  (3... Bb4 4. Nxe5 O-O 5. Be2) 4. Nxe5 { Taking the free pawn is best. In this line Black won't be able to recapture the e pawn like in the normal Petroff. However we can enter the stafford from this position } (4. Bc4 { Funnily enough most people will persist on declining the gambit }) 4... Nc6 5. Nxc6 { If they take the Knight this makes us happy because we transpose to a Stafford however... } (5. Nf3 { Here they can drop the knight back } 5... Qe7 6. d4 (6. d3) 6... Bb4 7. Bd3 Nxe4 8. O-O Nxc3 9. bxc3 Bxc3 10. Rb1 { Just and illustrative line given by the computer. Here we can see that Black has regain the pawn they gambitted but at the cost of giving white a lot of initiative. })  (5. Nd3 { Also an interesting option }) 5... dxc6 *
+
+
+[Event "Stafford Gambit: Stafford Declined : 3. Nxe5 Nc6 4. d4!?"]
+[Site "https://lichess.org/study/c9YhCd5b/PoqqwgJq"]
+[Result "*"]
+[UTCDate "2021.03.19"]
+[UTCTime "11:22:41"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 { In this position the best move for white is to accept the gambit. But sometimes white may decide not to take the knight and to decline the gambit instead. The two main ways to do it is to either play d4 or to bring back the knight to f3. } 4. d4 { In this chapter we take a look at d4 } 4... Qe7 { And that position it's actually best not to take the pawn on e4 right away but to play the intermediate move Qe7! } { [%cal Ge7e4,Gf6e4] } (4... Nxe4?! 5. Qe2 { The threat of a discovered check is extremely unpleasant to deal with. If black moves the Knight they will lose the queen after Nxc6+ } { [%cal Ge2e8] } 5... d5? (5... Qh4 { [%cal Gh4e4] } 6. g3 Qe7 7. Qxe4 d6 8. Nc3 dxe5 9. Nd5 Qd8 (9... f5 10. Nxe7 fxe4 11. Nxc6 bxc6 12. dxe5) 10. dxe5) 6. Nxc6 bxc6 7. f3)  (4... Nxe5 5. dxe5 Nxe4 6. Qe2 Nc5 7. Nc3 { And white gets a nice lead in devlopment and a comfortable position }) 5. Nxc6 (5. Nc3 Nxe5 6. dxe5 Qxe5 { [%cal Gf6e4,Ge5e4] } 7. f4 (7. Bd3 Bb4 { [%cal Gb4e1,Ge8g8] } 8. O-O (8. Bd2 d5) 8... Bxc3 9. bxc3) 7... Qe6 8. e5 Bb4) 5... Qxe4+ { No matter how they block the check from here all variations offer good chances for black. } { [%csl Ge4] } 6. Qe2 (6. Be2 dxc6 { Opening the diagonales for both bishops } { [%cal Gc8h3,Gf8a3] } 7. O-O Bd6 (7... Be6))  (6. Be3 dxc6 7. Nc3 Bb4) 6... Qxe2+ 7. Bxe2 dxc6 $13 *
+
+
+[Event "Stafford Gambit: Reverse Stafford Gambit (sort of)"]
+[Site "https://lichess.org/study/c9YhCd5b/6JTAsxTo"]
+[Result "*"]
+[UTCDate "2020.10.04"]
+[UTCTime "14:25:14"]
+[Variant "Standard"]
+[ECO "C27"]
+[Opening "Bishop's Opening: Boden-Kieseritzky Gambit"]
+[Annotator "https://lichess.org/@/wyggam"]
+
+1. e4 { Now you might wonder : is there a way to play the stafford with the white pieces? Well actually there is !
+You can play the stafford with white and a better version even ! } 1... e5 2. Nf3 (2. Bc4 { You can increase your chances of getting the Boden-Kieseritzky Gambit by playing the Bishop opening (a e4 e5 sideline by the way, especially if like gambits). } 2... Nf6 { The main line of the Bishop opening goes Nf6 } 3. Nf3!? { But after Nf3 we have a direct transposition to the Boden-Kieseritzky Gambit ! } 3... Nxe4 { [%cal Gf3e5] } 4. Nc3) 2... Nf6 { This reverse stafford Gambit is called Boden-Kieseritzky Gambit and it also occurs in the Petroff defense ! But you can also get it through the bishop opening } 3. Bc4!? { Lichess flags this as a line from the Urusov Gambit which is another tricky and dangerous opening. If you enjoy the stafford with black this is definitely something you should take a look at } 3... Nxe4 4. Nc3 { This leads to a reverse Stafford Gambit } 4... Nxc3 5. dxc3 f6 { f6 prevents Ng5 and protects the pawn. This is essentially the only move Black has to try to refute our gambit. } (5... d6? 6. Ng5 Be6 7. Bxe6 fxe6 8. Qf3 Be7 (8... Qe7 9. Qxb7) 9. Qf7+ (9. Qxb7 Bxg5) 9... Kd7 10. Qxe6+ Ke8) 6. Nh4 { White best try to attempt tricking black. } { [%cal Gh4f5,Gh4g6] } *
+
+
