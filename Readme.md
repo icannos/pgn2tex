@@ -50,4 +50,6 @@ options:
 
 WIP
 
+### Code formatting 
 
+The code is formatted using [Black](https://github.com/psf/black)
