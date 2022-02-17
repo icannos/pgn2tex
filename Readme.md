@@ -2,6 +2,10 @@
 
 A simple script to make pdf from pgn files and studies. It's still work in progress and I hope to improve it in the future. Please feel to reach out or to contribute by submitting issues and pull requests!
 
+### Examples
+
+Some examples can be found in the `examples/` directory. At the moment there is a [book on the Stafford Gambit](https://github.com/icannos/pgn2tex/blob/master/examples/stafford.pdf) based on this [study](https://lichess.org/study/c9YhCd5b).
+
 ### Requirements
 
 #### Python
