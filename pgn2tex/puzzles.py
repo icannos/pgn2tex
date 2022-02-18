@@ -141,7 +141,7 @@ if __name__ == "__main__":
         "--step-size",
         type=int,
         help="Step size from problem ratings",
-        default=500,
+        default=1000,
     )
     parser.add_argument(
         "-M",
