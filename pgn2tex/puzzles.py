@@ -2,6 +2,8 @@ import pandas as pd
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from typing import Dict, Tuple, Optional, List
+from string import Template
+import os
 
 import chess.pgn
 import chess
@@ -50,7 +52,8 @@ def open_themes_desc(path: Path) -> Dict[str, PuzzleTheme]:
         if name[-d:] != "Description":
             themes[name] = PuzzleTheme(id=name, name=child.text, desc="")
         else:
-            themes[name[:-d]].desc = child.text
+            if name[:-d] in themes:
+                themes[name[:-d]].desc = child.text
     return themes
 
 
@@ -105,24 +108,7 @@ def mk_book_from_list(L, level=0, book=True) -> str:
     return latex
 
 
-themes = open_themes_desc(Path("data/puzzle_desc.xml"))
-puzzles = open_puzzles(Path("data/lichess_db_puzzle.csv"))
-
-L = []
-
-for diff in range(1000, 3000, 500):
-    p = puzzles[puzzles["Rating"] <= diff].sample(100000)
-    diff_L = []
-    for tag, theme in themes.items():
-        pt = p[p["Themes"].str.contains(tag)]
-
-        if len(pt):
-            pt = pt.sample(min(len(pt), 100)).to_dict("records")
-            diff_L.append((theme.name, "puzzles", pt, theme.desc))
-
-    L.append((f"{diff} rated problems.", "list", diff_L, ""))
-
-print(mk_book_from_list(L, level=0, book=True))
+themes = open_themes_desc(Path("data/puzzleTheme.xml"))
 
 if __name__ == "__main__":
     parser = ArgumentParser(
@@ -130,16 +116,96 @@ if __name__ == "__main__":
     )
 
     parser.add_argument(
-        "file",
+        "--problems",
+        "-p",
+        type=int,
+        default=5,
+        help="Max number of problems to sample in each theme/rating range.",
+    )
+    parser.add_argument(
+        "--theme",
+        nargs="+",
+        type=str,
+        help="Name of the themes to be used.",
+        choices=[tag for tag, _ in themes.items()],
+    )
+    parser.add_argument(
+        "-m",
+        "--min-rating",
+        type=int,
+        help="Minimum rating of the problems.",
+        default=500,
+    )
+    parser.add_argument(
+        "-s",
+        "--step-size",
+        type=int,
+        help="Step size from problem ratings",
+        default=500,
+    )
+    parser.add_argument(
+        "-M",
+        "--max-rating",
+        type=int,
+        help="Maximum rating of the problems.",
+        default=2500,
+    )
+    parser.add_argument(
+        "--template",
+        "-t",
         type=Path,
-        help="Path to the .csv problem database. (Lichess problem format)",
+        help="Template file to use, if none only the latex content is generated with headers / document class, it can be input later on in any latex document.",
+        default=None,
     )
+
     parser.add_argument(
-        "-t", "--theme", nargs="+", type=str, help="Name of the themes to be used."
+        "--front-page", "-f", help="Path to a pdf frontpage", default=None
     )
-    parser.add_argument(
-        "-m", "--min-rating", type=int, help="Minimum rating of the problems."
+
+    parser.add_argument("--output", "-o", type=Path, help="Output file", default=None)
+
+    args = parser.parse_args()
+
+    puzzles = open_puzzles(Path("data/lichess_db_puzzle.csv"))
+
+    L = []
+
+    for diff in range(args.min_rating, args.max_rating, args.step_size):
+        p = puzzles[puzzles["Rating"] <= diff]
+
+        if len(p) < 10000:
+            p = p.sample(len(p))
+        else:
+            p = p.sample(
+                10000
+            )  # We take a subsample of the puzzles so the filtering is not too slow
+        diff_L = []
+        for tag, theme in themes.items():
+            if args.theme is not None and tag not in args.theme:
+                continue
+
+            pt = p[p["Themes"].str.contains(tag)]
+
+            if len(pt):
+                pt = pt.sample(min(len(pt), args.problems)).to_dict("records")
+                diff_L.append((theme.name, "puzzles", pt, theme.desc))
+
+        L.append((f"{diff} rated problems.", "list", diff_L, ""))
+
+    content = mk_book_from_list(L, level=0, book=True)
+
+    if args.template is None:
+        template = "$content"
+    else:
+        with args.template.open("r") as f:
+            template = f.read()
+
+    template = Template(template)
+
+    frontpage = (
+        ("\\includepdf[pages=1, noautoscale]{%s}" % os.path.abspath(args.front_page))
+        if args.front_page
+        else ""
     )
-    parser.add_argument(
-        "-M", "--max-rating", type=int, help="Minimum rating of the problems."
-    )
+    with open(args.output, "w") as fd:
+        fd.write(template.substitute(frontpage=frontpage, content=content))
