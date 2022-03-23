@@ -54,11 +54,15 @@ class PgnBook:
             latex += "\\includegraphics[width=0.2\\textwidth]{img/white_knight_logo.png} &  \\includegraphics[width=0.2\\textwidth]{img/black_knight_logo.png} \\\\ \n"
 
             latex += f"{game.headers['White']} & {game.headers['Black']} \\\\ \n"
+
             latex += f"{game.headers['WhiteElo']} & {game.headers['BlackElo']} \\\\ \n"
             # team
-            latex += (
-                f"{game.headers['WhiteTeam']} & {game.headers['BlackTeam']} \\\\ \n"
-            )
+
+            if "WhiteTeam" in game.headers and "BlackTeam" in game.headers:
+                latex += (
+                    f"{game.headers['WhiteTeam']} & {game.headers['BlackTeam']} \\\\ \n"
+                )
+
             latex += "\\end{tabular} \n"
             latex += "\\end{center} \n \n"
 
@@ -125,6 +129,7 @@ class PgnBook:
             board_save = copy.deepcopy(board)
             latex += "\\variation{" + board.variation_san(current_var) + "} \n"
             node.set_arrows([])
+            node.set_eval(score=None)
             latex += node.comment + "\n"
             for mv in current_var:
                 board_save.push(mv)
@@ -165,6 +170,7 @@ class PgnBook:
         # can display the comments without these.
         arrows = game.arrows()
         game.set_arrows([])
+        game.set_eval(score=None)
 
         # First add the comment for the whole game as introduction
 
@@ -189,7 +195,8 @@ class PgnBook:
             # Stack move
             to_push.append(node.move)
             # If we want to display something
-            if node.comment or (len(node.variations) > 1):
+            node.set_eval(score=None)
+            if node.comment or (len(node.variations) > 1) or node.is_end():
                 latex += "\\mainline{" + board.variation_san(to_push) + "} \n \n"
                 arrows = node.arrows()
                 node.set_arrows([])

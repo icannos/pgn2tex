@@ -134,14 +134,14 @@ if __name__ == "__main__":
         "--min-rating",
         type=int,
         help="Minimum rating of the problems.",
-        default=500,
+        default=1000,
     )
     parser.add_argument(
         "-s",
         "--step-size",
         type=int,
         help="Step size from problem ratings",
-        default=1000,
+        default=500,
     )
     parser.add_argument(
         "-M",
