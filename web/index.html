@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+      <script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+  </head>
+  <body>
+    Pyodide test page <br>
+    Open your browser console to see Pyodide output
+    <script type="text/javascript">
+      async function main(){
+
+        let pyodide = await loadPyodide();
+        await pyodide.loadPackage("micropip");
+        const micropip = pyodide.pyimport("micropip");
+
+        pyodide.runPython(`
+        import micropip
+        micropip.install(
+            'https://github.com/icannos/pgn2tex/blob/c2f02653e1d2a4ab43ed43745fcc16483f7d1a4f/web/pgn2tex-0.0.1-py3-none-any.whl'
+        )
+        `);
+        pyodide.runPython("print(1 + 2)");
+      }
+      main();
+    </script>
+  </body>
+</html>
