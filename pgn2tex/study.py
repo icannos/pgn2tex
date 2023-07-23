@@ -98,8 +98,8 @@ class PgnBook:
         current_var.append(node.move)
 
         # If we start a variation we add the starting comment to the text
-        if node.starts_variation:
-            latex += node.starting_comment + "\n \n"
+        # if node.starts_variation:
+        # latex += node.starting_comment + "\n \n"
 
         # node.variations contains the mainline at index 0,
         # If it has variations from here, ie more than 1 variation
@@ -109,7 +109,9 @@ class PgnBook:
         if len(node.variations) > 1:
             board_save = copy.deepcopy(board)
             latex += "\\variation{" + board.variation_san(current_var) + "} \n"
-            latex += node.comment + "\n"
+
+            if not first:
+                latex += node.comment + "\n"
             for mv in current_var:
                 board_save.push(mv)
             latex += "\\begin{variants} \n"

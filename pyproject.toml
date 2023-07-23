@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "pgn2tex"
+version = "0.0.1"
+authors = [
+  { name="Maxime DARRIN", email="maxime.darrin@outlook.com" },
+]
+description = "A simple tool to make latex file out of a chess game in pgn format"
+readme = "Readme.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/icannos/pgn2tex"
